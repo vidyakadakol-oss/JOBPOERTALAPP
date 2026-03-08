@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Django](https://img.shields.io/badge/Django-REST%20Framework-green)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
 Django Job Portal Backend API
 
 A RESTful backend system for a Job Portal application built using Django and Django REST Framework.
