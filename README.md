@@ -1,7 +1,15 @@
 Django Job Portal Backend API
 
 A RESTful backend system for a Job Portal application built using Django and Django REST Framework.
-This project provides APIs for user authentication, job posting, job searching, and job applications.
+
+This backend provides APIs for:
+
+- User authentication
+- Job posting
+- Job search & filtering
+- Job applications
+
+The system follows REST API architecture and uses JWT authentication for secure access.
 
 ---
 
@@ -67,18 +75,18 @@ jobportal/
 
 This project uses JWT (JSON Web Token) authentication.
 
-Generate token:
+Generate Token
 
 POST /api/token/
 
-Response example:
+Example Response:
 
 {
  "refresh": "your_refresh_token",
  "access": "your_access_token"
 }
 
-Use token in headers:
+Use Token in Request Header
 
 Authorization: Bearer <access_token>
 
@@ -116,31 +124,23 @@ GET| "/api/my-applications/"| View user applications
 
 ▶️ How to Run the Project
 
-1. Clone the repository
+1️⃣ Clone the Repository
 
 git clone https://github.com/yourusername/job-portal-backend.git
 
----
-
-2. Navigate to project folder
+2️⃣ Navigate to Project Folder
 
 cd jobportal
 
----
-
-3. Install dependencies
+3️⃣ Install Dependencies
 
 pip install -r requirements.txt
 
----
-
-4. Run migrations
+4️⃣ Run Migrations
 
 python manage.py migrate
 
----
-
-5. Start the server
+5️⃣ Start Development Server
 
 python manage.py runserver
 
@@ -158,7 +158,7 @@ http://127.0.0.1:8000
 - Email notifications for job applications
 - Role-based authentication
 - Admin dashboard
-- Deployment to cloud (AWS / Render)
+- Deployment to cloud platforms (AWS / Render)
 
 ---
 
@@ -168,7 +168,7 @@ Vidya Kadakol
 
 Python | Django | Backend Developer | API Testing
 
-GitHub Profile:
+GitHub Profile
 https://github.com/vidyakadakol-oss
 
 ---
@@ -176,4 +176,5 @@ https://github.com/vidyakadakol-oss
 ⭐ Contribution
 
 Contributions are welcome.
-Feel free to fork the repository and submit pull requests.
+
+If you would like to improve the project, feel free to fork the repository and submit a pull request.
